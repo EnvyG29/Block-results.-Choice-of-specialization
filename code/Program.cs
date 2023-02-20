@@ -22,7 +22,7 @@ string[] GetStringArrayWithElementLengthLessThanOrEqualToThree(string[] arr)
     string[] strArr = new string[arr.GetLength(0)];
     for (int i = 0; i < arr.GetLength(0); i++)
     {
-        if (arr[i].Length <= 3)
+        if (arr[i].Length <= 3 && arr[i].Length > 0)
         {
             strArr[index] = arr[i];
             index++;
